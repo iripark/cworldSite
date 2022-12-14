@@ -1,0 +1,85 @@
+
+/*main.css : 메인 페이지 전용 스타일*/
+
+#memberMenu { position:relative; top:10px; left:0px; margin:10px;}
+#mainLogo { margin-left:375px; margin-top:20px; }
+
+
+
+#topsearch {position:absolute; top:113px; left:685px;}
+.topMenu { position:absolute; top:160px; background:pink; z-index:10000;
+	display:inline-block; width:150px; height:60px; border-top:pink 1px solid; border-bottom:pink 1px solid; 
+	text-align:center;  border-right:pink 1px solid; vertical-align:middle; line-height:60px;
+	}
+	
+.topMenu2 {  }	
+#menu1 { left:0px; border-left:pink 1px solid; vertical-align:center;}
+#menu2 { left:150px; vertical-align:center;}
+#menu3 { left:300px; vertical-align:center;}
+#menu4 { left:450px; vertical-align:center;}
+#menu5 { left:600px; vertical-align:center;}
+#menu6 { left:750px; vertical-align:center;}
+.smallMenuR { 
+	position:absolute; top:210px; background:white;
+	 width:147px; height:60px; border-bottom:pink 1px solid; border-left:pink 1px solid;
+	text-align:center; vertical-align:middle; line-height:60px;
+	}
+#smallMenuR1 { left:152px; top:222px; vertical-align:center;}
+#smallMenuR2 { left:152px; top:282px; vertical-align:center;}
+#smallMenuR3 { left:152px; top:342px; vertical-align:center;}
+#smallMenuR4 { left:152px; top:402px; vertical-align:center;}
+#smallMenuR5 { left:152px; top:462px; vertical-align:center;}
+#smallMenuR6 { left:152px; top:522px; vertical-align:center; }
+
+.smallMenuS { 
+	position:absolute; top:210px; background:white; border-left:pink 1px solid;
+	 width:149px; height:60px; border-bottom:pink 1px solid; border-right:pink 1px solid;
+	text-align:center; vertical-align:middle; line-height:60px;
+	}
+#smallMenuS1 { left:299px; top:222px; vertical-align:center;}
+#smallMenuS2 { left:299px; top:282px; vertical-align:center;}
+#smallMenuS3 { left:299px; top:342px; vertical-align:center;}
+#smallMenuS4 { left:299px; top:402px; vertical-align:center;}
+#smallMenuS5 { left:299px; top:462px; vertical-align:center;}
+#smallMenuS6 { left:299px; top:522px; vertical-align:center; border-bottom:pink 1px solid;}
+
+#topMenu2Set { display:none; }
+
+#loginForm { position:relative; left:300px; top:100px;  }
+#loginTable { 
+	border-collapse:collapse; width:300px; height:100px;
+	border:pink 1px solid; align:center; padding:10px; }
+
+#videos{ border:pink 1px solid; }
+
+#findIdTable{ width:600px; border:pink 1px solid; border-collapse:collapse; padding:10px;}
+
+#indexDivId div{ 
+	display:table-cell; width:250px; height:60px; text-align:center; vertical-align:middle; 
+	border:1px white solid; cursor:pointer; border-collapse:collapse; margin-left:2px; padding:2px;
+}
+#indexDivId div:hover{
+	background:lightgray; border:orange 1px solid;
+}
+#m1, #m2, #m3, #m4 { margin-left:5px; }
+
+
+
+#mainLogo:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}

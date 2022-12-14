@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+E:\yby\jsp\work\cworldSite\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3153012812.index
+1615418821.index
+2707495013.index
+700344068.index
+3309701257.index
+2864120394.index

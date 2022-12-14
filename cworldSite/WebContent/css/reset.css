@@ -1,0 +1,25 @@
+/*  
+css파일 내에서는 <style>을 칠 필요가 없음
+reset.css : HTML 태그들이 가진 기본 속성값을 모두 없애는 역할을 하는 스타일 시트
+ - 사이트 전체 페이지에서 사용됨
+*/
+
+body, div, span, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, blockquote, p, address, pre, form, fieldset, input, textarea, select, table, th, td { margin:0; padding:0; }
+
+h1, h2, h3, h4, h5, h6 { font-size:100%; font-weight:normal; }
+
+fieldset, abbr, acronym, img { border:0 none; }
+
+ul, ol { list-style:none; }
+
+caption, th { text-align:left; font-weight:normal; }
+
+address, b, em, i, strong { font-weight:normal; font-style:normal }
+
+u, ins { text-decoration:none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content:""; }
+
+hr { display:none; }
+
+

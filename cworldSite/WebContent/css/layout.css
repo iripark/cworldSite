@@ -1,0 +1,14 @@
+/*
+layout.css : 사이트 레이아웃용 CSS
+*/
+/*
+#wrapper { background:url("../images/wrap_bg.jpg") no-repeat top center; }
+*/
+#header { 
+	width:900px; height:135px; margin:0 auto; position:relative;
+}
+
+.content { width:900px; min-height:600px; margin:0 auto;
+	padding-top:100px; }
+	
+#joinFormBox { position:relative; }
